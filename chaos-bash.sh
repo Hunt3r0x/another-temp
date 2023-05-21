@@ -8,7 +8,7 @@ programs="allprogramms"
 mkdir -p "$output_folder"
 
 for file in $(cat "$endpoints"); do
-    curl -sL "$url/$file"
+    curl -sLO "$url/$file"
 done
 
 for file in "$programs"/*.zip; do
