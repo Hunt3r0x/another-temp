@@ -2,7 +2,7 @@
 
 output_folder="output"
 url="https://chaos-data.projectdiscovery.io/"
-endpoints="endpoints.txt"
+endpoints="endpoints.txt" #must be updated every run
 programs="programs"
 
 mkdir -p "$output_folder"
