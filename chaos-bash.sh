@@ -73,6 +73,4 @@ if [ -f "$JSON_FILE" ]; then
   download_and_extract_urls_from_json
 fi
 
-download_json_file
-check_json_changes
-download_and_extract_urls_from_json
+
